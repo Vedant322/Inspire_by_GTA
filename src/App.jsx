@@ -312,7 +312,7 @@ const App = () => {
           className="main w-full min-h-screen relative overflow-auto"
           ref={mainRef}
         >
-          <nav className="fixed top-0 left-0 z-40 w-full py-4 px-6 md:py-8 md:px-12 flex flex-col sm:flex-row justify-between items-center bg-black bg-opacity-90 shadow-lg border-b-4 border-yellow-500">
+          <nav className="fixed top-0 left-0 z-40 w-full py-4 px-6 md:py-8 md:px-12 flex flex-col sm:flex-row justify-between items-center bg-black bg-opacity-90 shadow-lg border-b-16 border-yellow-500">
             {/* Logo & Burger Lines */}
             <div className="logo flex gap-4 md:gap-7 items-center mb-4 sm:mb-0">
               <div className="lines flex flex-col gap-[3px] md:gap-[5px]">
