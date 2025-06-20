@@ -591,10 +591,11 @@ const App = () => {
             </div>
           </section>
 
-          <section
+         <section
             id="contact-section"
-            className="contact-us w-full min-h-screen bg-[url('./newbg.jpg')] bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-4 sm:p-8"
             ref={contactSectionRef}
+            style={{ backgroundImage: "url('/newbg.jpg')" }}
+            className="contact-us w-full min-h-screen bg-cover bg-center bg-no-repeat text-white flex items-center justify-center p-4 sm:p-8"
           >
             <div className="w-full max-w-xl bg-black bg-opacity-80 rounded-lg shadow-2xl border border-yellow-500 p-6 sm:p-10 backdrop-blur-md">
               <h2
